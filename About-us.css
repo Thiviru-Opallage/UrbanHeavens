@@ -1,0 +1,262 @@
+.topic-para {
+  font-size: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.about-container {
+    margin: 150px auto;
+    width: 70%;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .about-content {
+    color: #0009;
+  }
+  
+  .about-content h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: "Pacifico", cursive;
+  }
+  
+  .about-content p {
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .About-img {
+    max-width: 300px;
+    height: auto;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    margin-right: 15px;
+    width: 400px;
+  }
+  
+  .About-img1 {
+    max-width: 585px;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    margin-right: 15px;
+  }
+  
+  hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .about-content h2 {
+    margin-bottom: 20px;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.services-table {
+    width: 80%;
+    margin: 0 auto; 
+    border-collapse: collapse;
+}
+
+.services-table th, .services-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.services-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+}
+
+.services-table td {
+    text-align: left;
+}
+
+.branches {
+  text-align: center;
+  padding: 20px;
+}
+
+.branches h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Pacifico", cursive;
+  font-size: 40px;
+}
+
+.branch-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  align-items: center;
+}
+
+.branch-collage {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.branch-collage-img1 {
+  width:400px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.branch-collage-img2 {
+  width:450px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.branch-collage-img3 {
+  width:450px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.branch-map {
+  flex-grow: 1;
+  height: 200px;
+  background-color: #f0f0f0;
+}
+
+.branch-description {
+  padding-left: 20px;
+  text-align: left;
+}
+
+.branch-description h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+.branch-description p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.branch-description ul {
+  padding-left: 10px;
+}
+
+/* Responsive styles */
+/* Large screens */
+
+@media (max-width: 1200px) {
+  .about-container {
+      width: 90%;
+  }
+
+  .About-img, .About-img1 {
+      max-width: 100%;
+      width: 100%;
+  }
+
+  .services-table {
+      width: 90%;
+  }
+}
+
+@media (max-width: 992px) {
+  .about-content h2 {
+      font-size: 36px;
+  }
+
+  .about-content p {
+      font-size: 18px;
+  }
+
+  .branches h2 {
+      font-size: 36px;
+  }
+
+  .branch-collage-img1, .branch-collage-img2, .branch-collage-img3 {
+      width: 350px;
+  }
+}
+
+/* Small screens */
+@media (max-width: 768px) {
+  .about-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .About-img, .About-img1 {
+      margin-right: 0;
+      margin-bottom: 20px;
+      width: 100%;
+  }
+
+  .branch-collage {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .branch-collage-img1, .branch-collage-img2, .branch-collage-img3 {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 20px;
+  }
+
+  .branch-map {
+      width: 100%;
+      height: 300px;
+  }
+
+  .branch-description {
+      padding-left: 0;
+      text-align: center;
+  }
+
+  .branch-description h2 {
+      font-size: 18px;
+  }
+
+  .branch-description p {
+      font-size: 14px;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 576px) {
+  .about-content h2 {
+      font-size: 30px;
+  }
+
+  .about-content p {
+      font-size: 16px;
+  }
+
+  .branches h2 {
+      font-size: 30px;
+  }
+
+  .services-table th, .services-table td {
+      padding: 8px;
+  }
+
+  .branch-description h2 {
+      font-size: 16px;
+  }
+
+  .branch-description p {
+      font-size: 14px;
+  }
+}

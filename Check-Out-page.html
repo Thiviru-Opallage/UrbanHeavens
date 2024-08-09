@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Linking Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <!-- Adding favicon and other necessary meta tags -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./Images/Logo/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./Images/Logo/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./Images/Logo/favicon-16x16.png">
+    <link rel="manifest" href="./Images/Logo/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Linking CSS files -->
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="Products.css">
+    <link rel="stylesheet" href="About-us.css">
+    <link rel="stylesheet" href="Order.css">
+    <link rel="stylesheet" href="Loyalty-Registration.css">
+    <link rel="stylesheet" href="Check-Out-page.css">
+    <title>Check Out Page</title>
+</head>
+<body>
+    <!-- Header section -->
+    <header class="Checkout-header">
+        <div class="text">
+            <p>Urban Heavens</p>
+        </div>
+        <!-- Navigation bar -->
+        <div class="navbar-checkout-page">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Dairy.html">Dairy</a></li>
+                <li><a href="Vegetables.html">Vegetables</a></li>
+                <li><a href="Cosmetics.html">Cosmetics</a></li>
+                <li><a href="About-us.html">About us</a></li>
+                <li><a href="Order.html">Orders</a></li>
+                <li><a href="Loyalty-Registration.html">Loyalty</a></li>
+            </ul>
+        </div>
+        <!-- Search bar -->
+        <div class="search-bar-checkout-page">
+            <input type="search" placeholder="Search..." class="search-input">
+            <button class="button-search">Search</button>
+        </div>
+    </header>
+    <hr>
+    <section id="userDetails">
+        <div class="card-info">
+                <div class="card">
+                    <div class="circle"></div>
+                    <h1>VISA</h1><br><br>
+                    <p id="displayCardNumber">#### #### #### ####</p>
+                    <p id="displayCardHolder">Card Holder</p>
+                    <p id="displayExpiry">Expires: MM/YY</p>
+                </div>
+        </div>
+        <!--Getting personal details, delivery details and payment information from the user.-->
+            <form class="checkout-container">
+                <div class="details-form" id="checkoutForm">
+                    <div class="details-container">
+                        <h2>Personal details</h2>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                
+                        <label for="phoneNum">Phone number:</label>
+                        <input type="tel" id="phoneNum" name="phone" required>
+                    </div>
+                    <div class="details-container">
+                        <h2>Delivery Details</h2>
+                        <label for="address">Address:</label>
+                        <input type="text" id="address" name="address" required>
+                
+                        <label for="city">City:</label>
+                        <input type="text" id="city" name="city" required>
+                
+                        <label for="ZipCode">Zip Code:</label>
+                        <input type="text" id="ZipCode" name="ZipCode" required>
+                    </div>
+                    <div class="details-container">
+                        <h2>Payment Information</h2>
+                        <div class="form-group">
+                            <label for="cardHolder">Card Holder:</label>
+                            <input type="text" id="cardHolder">
+                        </div>
+                        <div class="form-group">
+                            <label for="cardNum">Card Number:</label>
+                            <input type="text" id="cardNum">
+                            <p id="cardNumberError" class="cardNumberError">Card number must be exactly 16 digits</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="expiryMonth">Expiry Month:</label>
+                            <input type="month" id="expiryMonth">
+                        </div>
+                    </div>
+                </div>
+            </form> 
+            <!--Details about the order will be shown here as a summary-->     
+            <div class="order-summary-container">
+                <div class="order-summary" id="orderSummary">
+                    <h2>Order Summary</h2>
+                    <p></p>
+                </div>
+            </div>
+            <button type="button" class="submit-button">Submit Order</button>  
+    </section>
+    
+    
+    <!-- Footer section -->
+    <footer class="Checkout-Footer">
+        <div class="checkOut-footer-container">
+            <!-- About section -->
+            <div class="Checkout-footer-about">
+                <h3>About Us</h3>
+                <p>We are a company providing the best products and services to our customers. Follow us on social media accounts to stay updated!!!</p>
+                <!-- Social media icons -->
+                <div class="Checkout-social-icons">
+                    <a href="#" class="social-icon"><img src="./Images/Footer/facebook_logo_icon_.png" alt="Facebook"></a>
+                    <a href="#" class="social-icon"><img src="./Images/Footer/logo_twitter_bird_icon_.png" alt="Twitter"></a>
+                    <a href="#" class="social-icon"><img src="./Images/Footer/Instagram-logo-icon.png" alt="Instagram"></a>
+                    <a href="#" class="social-icon"><img src="./Images/Footer/logo_linkedin_icon_.png" alt="LinkedIn"></a>
+                </div>
+            </div>
+            <!-- Quick links section -->
+            <div class="Checkout-footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="./index.html">Home</a><br></li>
+                    <li><a href="./Dairy.html">Dairy Products</a><br></li>
+                    <li><a href="./Vegetables.html">Vegetable Products</a><br></li>
+                    <li><a href="./Cosmetics.html">Cosmetic Products</a><br></li>
+                    <li><a href="./About-us.html">About Us</a><br></li>
+                    <li><a href="./Order.html">Order Page</a><br></li>
+                    <li><a href="./Loyalty-Registration.html">Loyalty and Registration</a></li>
+                </ul>
+            </div>
+            <!-- Contact section -->
+            <div class="Checkout-footer-contact">
+                <h3>Contact Us</h3>
+                <p>321, Urban Street, Sri Lanka</p>
+                <p>+94 555 741 7890</p>
+                <p>urbanheavens@gmail.com</p>
+            </div>
+        </div>
+        <!-- Bottom section -->
+        <div class="Checkout-footer-bottom">
+            <p>© 2024 Urban Heavens. All Rights Received</p>
+        </div>
+    </footer>
+    <script src="./Check-Out-page.js"></script>
+</body>
+</html>
+
+
+
+
+
+ 

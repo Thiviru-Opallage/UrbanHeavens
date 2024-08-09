@@ -1,0 +1,337 @@
+/* Global styles */
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Background image for Products section */
+.Products {
+    background-image: url(./Images/Background\ image\ -\ Products\ page.webp);
+}
+
+/* Styles for each section */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styling for the topic heading */
+.topic {
+    font-size: 50px;
+    font-family: "Pacifico", cursive;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+/* Introduction text style */
+.intro {
+    font-size: 18px;
+    font-family: cursive;
+}
+
+/* Container for products */
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+/* Individual product styles */
+.products {
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25);
+    transition: 0.4s;
+    background: #f2f2f2;
+}
+
+/* Hover effect for products */
+.products:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    transform: translate(0px, -8px);
+}
+
+/* Button styles for products */
+.products-button {
+    background-color: burlywood;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-left: 10px;
+    font-weight: bold;
+    width: auto;
+    white-space: nowrap;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* Button hover effect */
+.products-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Product image styles */
+.prod-img {
+    width: 200px;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    filter: drop-shadow(1px 20px 15px #0009);
+    margin: 10px;
+}
+
+/* Product content styles */
+.prod-content {
+    color: #333;
+}
+
+/* Container for vegetable products */
+.vege-products-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+/* Individual vegetable product styles */
+.vege-products {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding: 40px 40px;
+}
+
+/* Hover effect for vegetable products */
+.vege-products:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    transform: scale(1.03);
+}
+
+/* Heading for vegetable providers */
+.vegetable-providers {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Heading style for vegetable providers */
+.vegetable-providers h2 {
+    font-family: "Pacifico", cursive;
+    color: black;
+    font-size: 40px;
+}
+
+/* Container for vendors */
+.vendor-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Individual vendor styles */
+.vendors {
+    width: 30%;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Vendor image styles */
+.vendors img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Vendor name styles */
+.vendors h2 {
+    font-size: 24px;
+    font-family: "Pacifico", cursive;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Vendor description styles */
+.vendors p {
+    color: #333;
+    justify-content: center;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+/* Location style for vendors */
+.vendors .vege-location {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* List style for vendors */
+.vendors ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* List item style for vendors */
+.vendors ul li {
+    margin-bottom: 10px;
+}
+
+/* Product image style for cosmetic products */
+.prod-img1 {
+    height: 100px;
+    width: auto;
+    padding-bottom: 10px;
+}
+
+/* Container for cosmetic products */
+.cos-products-container {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Individual cosmetic product styles */
+.Cosmetics-products {
+    width: 23%;
+    margin: 1%;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #333;
+    background-color: #fff;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-sizing: border-box;
+}
+
+/* Image style for cosmetic products */
+.Cosmetics-products img {
+    max-width: 100%;
+    height: auto; 
+    display: block;
+    margin: 0 auto 10px; 
+}
+
+/* Hover effect for cosmetic products */
+.Cosmetics-products:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    transform: scale(1.03);
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+    .Cosmetics-products {
+        width: 30%;
+    }
+}
+
+@media (max-width: 768px) {
+    .Cosmetics-products {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .Cosmetics-products {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .products {
+        width: 25%;
+    }
+
+    .vendors {
+        width: 45%;
+    }
+}
+
+@media (max-width: 992px) {
+    .topic {
+        font-size: 40px;
+    }
+
+    .intro {
+        font-size: 16px;
+    }
+
+    .products {
+        width: 45%;
+    }
+
+    .vendors {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .topic {
+        font-size: 30px;
+    }
+
+    .products {
+        width: 100%;
+    }
+
+    .vendors {
+        width: 100%;
+    }
+
+    .vege-products-container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+
+@media (max-width: 576px) {
+    .topic {
+        font-size: 24px;
+    }
+
+    .products-button {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+
+    .prod-img {
+        width: 100%;
+    }
+
+    .intro {
+        font-size: 14px;
+    }
+
+    .products {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .vendors {
+        width: 100%;
+    }
+}

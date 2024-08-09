@@ -1,0 +1,449 @@
+body {
+    background-image: url('./Images/Background\ image\ -\ Checkout\ page.jpg');
+}
+
+/* Styling the nav bar and the header in the checkout page */
+
+.Checkout-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #555555;
+    color: white;
+    border-radius: 80px;
+    position: relative;
+    padding: 20px;
+}
+
+.navbar-checkout-page {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.navbar-checkout-page ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 800px;
+}
+
+.navbar-checkout-page ul li {
+    margin-right: 20px;
+}
+
+.navbar-checkout-page ul li a {
+    text-decoration: none;
+    color: white !important;
+    font-family: cursive;
+    font-size: 15px;
+    transition: color 0.3s ease;
+    font-weight: bold;
+}
+
+.navbar-checkout-page ul li a:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: burlywood;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.search-bar-checkout-page {
+    margin-top: 20px;
+    display: flex;
+    width: 50%;
+    max-width: 300px;
+}
+
+.search-bar-checkout-page input {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    width: 70%;
+    background-color: black;
+}
+
+.search-bar-checkout-page input:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.button-search {
+    background-color: cadetblue;
+    color: white;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-left: 10px;
+    font-weight: bold;
+    width: 30%;
+}
+
+.button-search:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* styling the form section of the page */
+.checkout-container {
+    width: 90%;
+    max-width: 1200px;
+    background: #999999;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+}
+
+.details-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.details-container {
+    width: 30%;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Card Information Styles */
+.card-info {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.card p {
+    font-family: cursive;
+    font-size: large;
+}
+
+.card {
+    background: linear-gradient(135deg, #ff4081, #7b1fa2);
+    border-radius: 10px;
+    padding: 40px;
+    color: white;
+    text-align: center;
+    position: relative;
+    width: 45%;
+    margin: 0 auto 15px;
+}
+
+.circle {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+}
+
+.input-fields {
+    text-align: center;
+}
+
+.input-fields label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.input-fields input {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 50%;
+    text-align: center;
+}
+
+#errorMessage {
+    color: red;
+    display: none;
+}
+
+.cardNumberError {
+    color: red;
+    display: none;
+}
+
+/* Submit Button Styles */
+.submit-button {
+    padding: 10px;
+    background-color: #7b1fa2;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    margin: auto;
+    display: block;
+}
+
+.submit-button:hover {
+    background-color: #f53b79;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Order Summary Styles */
+.order-summary-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    width: 70%;
+    margin: auto;
+}
+
+.order-summary {
+    margin: 35px;
+    padding: 20px;
+    background-color: rgba(246, 9, 246, 1); 
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    align-items: center;
+}
+
+.order-summary h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.order-summary p {
+    padding: 10px;
+    font-size: 18px;
+    color: teal;
+    line-height: 1.5;
+    border-left: 3px solid #7b1fa2;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+    font-size: larger;
+}
+
+.order-summary p:hover {
+    background-color: #f1e4ff;
+    transform: scale(1.02);
+}
+
+/* Styling Footer in the checkout page */
+.Checkout-Footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.checkOut-footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.Checkout-footer-about, .Checkout-footer-links, .Checkout-footer-contact {
+    flex: 1;
+    margin: 10px;
+    min-width: 250px; 
+}
+
+.Checkout-social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.Checkout-footer-bottom {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.Checkout-footer-about h3, .Checkout-footer-links h3, .Checkout-footer-contact h3 {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #fff;
+}
+
+.Checkout-footer-about p, .Checkout-footer-links a, .Checkout-footer-contact p {
+    color: #bbb;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.Checkout-footer-links ul {
+    padding-left: 20px;
+}
+
+.Checkout-footer-links a:hover {
+    color: #fff;
+}
+
+.Checkout-social-icons {
+    margin-top: 20px;
+}
+
+.social-icon img {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.social-icon:hover img {
+    background-color: white;
+}
+
+.Checkout-footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #444;
+}
+
+.Checkout-footer-bottom p {
+    margin: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+    .Checkout-header {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .navbar-checkout-page {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .navbar-checkout-page ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar-checkout-page ul li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .search-bar-checkout-page {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .button-search {
+        width: 100%;
+    }
+
+    .checkout-container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .details-container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .card-info, .order-summary-container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .submit-button {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .Checkout-Footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .checkOut-footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Checkout-footer-about, .Checkout-footer-contact {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .Checkout-footer-links {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: start;
+    }
+
+    .Checkout-social-icons {
+        justify-content: center;
+    }
+
+    .Checkout-footer-bottom {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .details-form {
+        flex-direction: column;
+    }
+
+    .details-container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        width: 100%; 
+        padding: 20px; 
+    }
+
+    .submit-button {
+        width: 100%; 
+        padding: 15px;
+    }
+
+    .order-summary-container {
+        width: 100%;
+    }
+
+    .order-summary {
+        width: 100%; 
+    }
+}

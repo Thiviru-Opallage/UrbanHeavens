@@ -1,0 +1,309 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f4f4f4; 
+    color: #333; 
+    margin: 0; 
+    padding: 0;
+}
+
+.background-image {
+    background: linear-gradient(45deg, blueviolet, lightgreen); 
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.order-topic {
+    font-size: 50px;
+    font-family: "Pacifico", cursive;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 20px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.order-section-topic {
+    font-size: 35px;
+    font-family: fantasy;
+    padding: 20px;
+    border-radius: 20px;
+    align-items: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Container for products */
+.order-page-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    margin-top: 10px;
+}
+
+/* Individual product styles */
+.order-page-products {
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25);
+    transition: 0.4s;
+    background: #f2f2f2;
+}
+
+.order-page-products:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    transform: translate(0px, -8px);
+}
+
+.order-page-products input {
+    text-align: center;
+    padding: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.order-page-content-topic {
+    font-family: "Pacifico", cursive;
+    font-size: medium;
+}
+
+.order-page-content {
+    color: #333;
+    font-family:cursive;
+}
+
+.orderTable th {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#000000;
+}
+
+#total-price {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger
+}
+
+/* Button styles for products */
+.order-page-button {
+    background-color: burlywood;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-left: 10px;
+    font-weight: bold;
+    width: auto;
+    white-space: nowrap;
+    margin-top: 12px;
+    margin-bottom: 30px;
+}
+
+/* Button hover effect */
+.order-page-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Product image styles */
+.order-page-img {
+    width: 200px;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    filter: drop-shadow(1px 20px 15px #0009);
+    margin: 10px;
+    margin-bottom: 25px;
+}
+
+table {
+    width: 50%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.checkout-button{
+    background-color: burlywood;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    font-weight: bold;
+    width: 250px;
+    height: 50px;
+    margin: 5px;
+    white-space: nowrap;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.checkout-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.remove-button {
+    padding: 10px 15px;
+    border: #333;
+    margin-left: 75px;
+    cursor: pointer;
+    white-space: nowrap;
+    display: inline;
+    background: none;
+    font-size: small;
+    border-radius: 20px;
+}
+
+.remove-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: cadetblue;
+}
+
+.favoritesbtn-container {
+    display: flex;
+    justify-content: center; 
+    gap: 10px; 
+    margin-bottom: 15px;
+}
+
+.favoritesBtn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bold;
+
+}
+
+.favoritesBtn:hover {
+    background-color: black; 
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Mobile responsiveness for smaller screens */
+@media (max-width: 768px) {
+    .order-topic {
+        font-size: 36px;
+        margin-top: 10px;
+    }
+
+    .order-section-topic {
+        font-size: 24px;
+        margin-top: 5px;
+    }
+
+    .order-page-container {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .order-page-products {
+        width: 80%;
+        margin: 10px 0;
+    }
+
+    .order-page-img {
+        width: 150px;
+    }
+
+    .order-page-button, .checkout-button {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    table {
+        width: 90%;
+    }
+
+    th, td {
+        padding: 8px;
+        text-align: center;
+    }
+
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar ul li {
+        margin: 5px 0;
+    }
+
+    .search-bar {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .search-input {
+        width: 70%;
+        font-size: 14px;
+    }
+
+    .button {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) {
+    .order-topic {
+        font-size: 28px;
+    }
+
+    .order-section-topic {
+        font-size: 18px;
+    }
+
+    .order-page-products {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .order-page-button, .checkout-button {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+
+    .order-page-img {
+        width: 120px;
+    }
+}

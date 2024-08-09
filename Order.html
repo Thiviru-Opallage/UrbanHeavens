@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata and linking external resources -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Preconnect to Google Fonts and load Pacifico font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <!-- Favicon and apple touch icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./Images/Logo/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./Images/Logo/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./Images/Logo/favicon-16x16.png">
+    <link rel="manifest" href="./Images/Logo/site.webmanifest">
+    <!-- Theme color settings -->
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Linking external CSS files for styling different pages -->
+    <title>Order Page</title>
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="Products.css">
+    <link rel="stylesheet" href="About-us.css">
+    <link rel="stylesheet" href="Order.css">
+    <link rel="stylesheet" href="Loyalty-Registration.css">
+</head>
+<body class="background-image">
+    <!-- Header section -->
+    <header class="header">
+        <!-- Site title or logo -->
+        <div class="text">
+            <p>Urban Heavens</p>
+        </div>
+        <!-- Navigation bar -->
+        <div id="nav-menu" class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Dairy.html">Dairy</a></li>
+                <li><a href="Vegetables.html">Vegetables</a></li>
+                <li><a href="Cosmetics.html">Cosmetics</a></li>
+                <li><a href="About-us.html">About us</a></li>
+                <li><a href="Order.html">Orders</a></li>
+                <li><a href="Loyalty-Registration.html">Loyalty</a></li>
+            </ul>
+        </div>
+        <!-- Search bar -->
+        <div class="search-bar">
+            <input type="search" placeholder="Search..." class="search-input">
+            <button class="button">Search</button>
+        </div>
+    </header>
+    <section>
+        <!-- Section for the topic -->
+        <p class="order-topic">Order Page</p>
+    </section>
+    <hr>
+    <section>
+        <p class="order-section-topic">Fruits</p>
+        <div class="order-page-container">
+             <!-- Container for product listings -->
+            <!-- Individual product card -->
+            <div class="order-page-products">
+                <img src= "./Images/Order-page/Banana.jpg" alt="Banana" class="order-page-img">
+                <p class="order-page-content-topic">Banana</p><br>
+                <p class="order-page-content">Rs. 400 - 1Kg</p><br>
+                <input type="number" id="Banana-quantity" min="1" placeholder="Quantity (Kg)">
+                <button class="order-page-button">Buy Now</button>
+            </div>
+            <div class="order-page-products">
+                <img src= "./Images/Order-page/Mango.jpg" alt="Mango" class="order-page-img">
+                <p class="order-page-content-topic">Mango</p><br>
+                <p class="order-page-content">Rs. 840 - 1Kg</p><br>
+                <input type="number" id="Mango-quantity" min="1" placeholder="Quantity (Kg)">
+                <button class="order-page-button">Buy Now</button>
+            </div>
+            <div class="order-page-products">
+                <img src= "./Images/Order-page/Papaya.jpg" alt="Papaya" class="order-page-img">
+                <p class="order-page-content-topic">Papaya</p><br>
+                <p class="order-page-content">Rs. 160 - 1Kg</p><br>
+                <input type="number" id="Papaya-quantity" min="1" placeholder="Quantity (Kg)">
+                <button class="order-page-button">Buy Now</button>
+            </div>
+            <div class="order-page-products">
+                <img src= "./Images/Order-page/Pineapple.jpg" alt="Pineapple" class="order-page-img">
+                <p class="order-page-content-topic">Pineapple</p><br>
+                <p class="order-page-content">Rs. 605 - 1Kg</p><br>
+                <input type="number" id="Pineapple-quantity" min="1" placeholder="Quantity (Kg)">
+                <button class="order-page-button">Buy Now</button>
+            </div>
+            <div class="order-page-products">
+                <img src= "./Images/Order-page/Watermelon.jpg" alt="Watermelon" class="order-page-img">
+                <p class="order-page-content-topic">Watermelon</p><br>
+                <p class="order-page-content">Rs. 200 - 1Kg</p><br>
+                <input type="number" id="Watermelon-quantity" min="1" placeholder="Quantity (Kg)">
+                <button class="order-page-button">Buy Now</button>
+            </div>
+            <div class="order-page-products">
+                <img src= "./Images/Order-page/Orange.jpg" alt="Orange" class="order-page-img">
+                <p class="order-page-content-topic">Orange</p><br>
+                <p class="order-page-content">Rs. 1,590 - 1Kg</p><br>
+                <input type="number" id="Orange-quantity" min="1" placeholder="Quantity (Kg)">
+                <button class="order-page-button">Buy Now</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <p class="order-section-topic">Vegetables</p>
+        <div class="order-page-container">
+            <!-- Container for product listings -->
+            <!-- Individual product card -->
+            <div class="order-page-products">
+                <img src= "./Images/Order-page/Carrot.jpg" alt="Carrot" class="order-page-img">
+                <p class="order-page-content-topic">Carrot</p><br>
+                <p class="order-page-content">Rs. 630 - 1kg</p><br>
+                <input type="number" id="Carrot-quantity" min="1" placeholder="Quantity (Kg)">
+                <button class="order-page-button">Buy Now</button>
+            </div>
+            <div class="order-page-products">
+                <img src= "./Images/Order-page/Potato.jpg" alt="Potato" class="order-page-img">
+                <p class="order-page-content-topic">Potato</p><br>
+                <p class="order-page-content">Rs. 680 - 1kg</p><br>
+                <input type="number" id="Potato-quantity" min="1" placeholder="Quantity (Kg)">
+                <button class="order-page-button">Buy Now</button>
+            </div>
+            <div class="order-page-products">
+                <img src= "./Images/Order-page/Tomato.jpg" alt="Tomato" class="order-page-img">
+                <p class="order-page-content-topic">Tomato</p><br>
+                <p class="order-page-content">Rs. 195 - 500g</p><br>
+                <input type="number" id="Tomato-quantity" min="1" placeholder="Quantity (Kg)">
+                <button class="order-page-button">Buy Now</button>
+            </div>
+            <div class="order-page-products">
+                <img src= "./Images/Order-page/Cabbage.jpg" alt="Cabbage" class="order-page-img">
+                <p class="order-page-content-topic">Cabbage</p><br>
+                <p class="order-page-content">Rs. 230 - 500g</p><br>
+                <input type="number" id="Cabbage-quantity" min="1" placeholder="Quantity (Kg)">
+                <button class="order-page-button">Buy Now</button>
+            </div>
+            <div class="order-page-products">
+                <img src= "./Images/Order-page/Green-Beans.jpg" alt="Green Beans" class="order-page-img">
+                <p class="order-page-content-topic">Green Beans</p><br>
+                <p class="order-page-content">Rs. 200 - 250g</p><br>
+                <input type="number" id="GreenBeans-quantity" min="1" placeholder="Quantity (Kg)">
+                <button class="order-page-button">Buy Now</button>
+            </div>
+            <div class="order-page-products">
+                <img src= "./Images/Order-page/Eggplant.jpg" alt="Eggplant" class="order-page-img">
+                <p class="order-page-content-topic">Eggplant</p><br>
+                <p class="order-page-content">Rs. 70 - 350g</p><br>
+                <input type="number" id="Eggplant-quantity" min="1" placeholder="Quantity (Kg)">
+                <button class="order-page-button">Buy Now</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <p class="order-section-topic">Dairy products</p>
+        <div class="order-page-container">
+            <!-- Container for product listings -->
+            <!-- Individual product card -->
+            <div class="order-page-products">
+                <img src= "./Images/Order-page/Milk.jpg" alt="Milk" class="order-page-img">
+                <p class="order-page-content-topic">Milk</p><br>
+                <p class="order-page-content">Rs. 550 - 1L</p><br>
+                <input type="number" id="milk-quantity" min="1" placeholder="Quantity (Units)">
+                <button class="order-page-button">Buy Now</button>
+            </div>
+            <div class="order-page-products">
+                <img src= "./Images/Order-page/Cheese.jpg" alt="Cheese" class="order-page-img">
+                <p class="order-page-content-topic">Cheese</p><br>
+                <p class="order-page-content">Rs. 560 - 120g</p><br>
+                <input type="number" id="cheese-quantity" min="1" placeholder="Quantity (Units)">
+                <button class="order-page-button">Buy Now</button>            
+            </div>
+            <div class="order-page-products">
+                <img src= "./Images/Order-page/Butter.jpg" alt="Butter" class="order-page-img">
+                <p class="order-page-content-topic">Butter</p><br>
+                <p class="order-page-content">Rs. 700 - 200g</p><br>
+                <input type="number" id="butter-quantity" min="1" placeholder="Quantity (Units)">
+                <button class="order-page-button">Buy Now</button>         
+            </div>
+            <div class="order-page-products">
+                <img src= "./Images/Order-page/Yogurt.jpg" alt="Yogurt" class="order-page-img">
+                <p class="order-page-content-topic">Yogurt</p><br>
+                <p class="order-page-content">Rs. 80 - 80g</p><br>
+                <input type="number" id="yogurt-quantity" min="1" placeholder="Quantity(Units)">
+                <button class="order-page-button">Buy Now</button>
+            </div>
+            <div class="order-page-products">
+                <img src= "./Images/Order-page/Ice-cream.jpg" alt="Ice-cream" class="order-page-img">
+                <p class="order-page-content-topic">Ice-cream</p><br>
+                <p class="order-page-content">Rs. 520 - 1L</p><br>
+                <input type="number" id="ice-cream-quantity" min="1" placeholder="Quantity(Units)">
+                <button class="order-page-button">Buy Now</button> 
+            </div>
+            <div class="order-page-products">
+                <img src= "./Images/Order-page/Curd.jpg" alt="Curd" class="order-page-img">
+                <p class="order-page-content-topic">Curd</p><br>
+                <p class="order-page-content">Rs. 380 - 450g</p><br>
+                <input type="number" id="curd-quantity" min="1" placeholder="Quantity(Units)">
+                <button class="order-page-button">Buy Now</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <p class="order-section-topic">Meat and Seafood</p>
+        <div class="order-page-container">
+            <!-- Container for product listings -->
+            <!-- Individual product card -->
+            <div class="order-page-products">
+                <img src= "./Images/Order-page/Chicken.jpg" alt="Chicken" class="order-page-img">
+                <p class="order-page-content-topic">Chicken</p><br>
+                <p class="order-page-content">Rs. 1,100 - 1Kg</p><br>
+                <input type="number" id="Chicken-quantity" min="1" placeholder="Quantity (Kg)">
+                <button class="order-page-button">Buy Now</button>
+            </div>
+            <div class="order-page-products">
+                <img src= "./Images/Order-page/Beef.jpg" alt="Beef" class="order-page-img">
+                <p class="order-page-content-topic">Beef</p><br>
+                <p class="order-page-content">Rs. 1,200 - 250g</p><br>
+                <input type="number" id="Beef-quantity" min="1" placeholder="Quantity (Kg)">
+                <button class="order-page-button">Buy Now</button>
+            </div>
+            <div class="order-page-products">
+                <img src= "./Images/Order-page/Prawns.jpg" alt="Prawns" class="order-page-img">
+                <p class="order-page-content-topic">Prawns</p><br>
+                <p class="order-page-content">Rs. 1,500 - 500g</p><br>
+                <input type="number" id="Prawns-quantity"  min="1" placeholder="Quantity (Kg)">
+                <button class="order-page-button">Buy Now</button>
+            </div>
+            <div class="order-page-products">
+                <img src= "./Images/Order-page/Fish.jpg" alt="Fish" class="order-page-img">
+                <p class="order-page-content-topic">Fish</p><br>
+                <p class="order-page-content">Rs. 1,050 - 500g</p><br>
+                <input type="number" id="Fish-quantity" min="1" placeholder="Quantity (Kg)">
+                <button class="order-page-button">Buy Now</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <p class="order-section-topic">Baking and Cooking Ingredients </p>
+        <div class="order-page-container">
+            <!-- Container for product listings -->
+            <!-- Individual product card -->
+            <div class="order-page-products">
+                <img src= "./Images/Order-page/Flour.jpg" alt="Flour" class="order-page-img">
+                <p class="order-page-content-topic">Flour</p><br>
+                <p class="order-page-content">Rs. 200 - 1Kg</p><br>
+                <input type="number" id="flour-quantity"  min="1" placeholder="Quantity (Kg)">
+                <button class="order-page-button">Buy Now</button>
+            </div>            
+            <div class="order-page-products">
+                <img src= "./Images/Order-page/Sugar.jpg" alt="Sugar Products" class="order-page-img">
+                <p class="order-page-content-topic">Sugar</p><br>
+                <p class="order-page-content">Rs. 250 - 1Kg</p><br>
+                <input type="number" id="sugar-quantity" min="1" placeholder="Quantity (Units)">
+                <button class="order-page-button">Buy Now</button>
+            </div>            
+            <div class="order-page-products">
+                <img src= "./Images/Order-page/Salt-products.jpg" alt="Salt Products" class="order-page-img">
+                <p class="order-page-content-topic">Salt</p><br>
+                <p class="order-page-content">Rs. 115 - 400g</p><br>
+                <input type="number" id="salt-quantity" min="1" placeholder="Quantity (Units)">
+                <button class="order-page-button">Buy Now</button>
+            </div>            
+            <div class="order-page-products">
+                <img src= "./Images/Order-page/Baking-powder.jpg" alt="Baking Powder" class="order-page-img">
+                <p class="order-page-content-topic">Baking Powder</p><br>
+                <p class="order-page-content">Rs. 380 - 100g</p><br>
+                <input type="number" id="bakingPowder-quantity" min="1" placeholder="Quantity (Units)">
+                <button class="order-page-button">Buy Now</button>
+            </div>        
+            <div class="order-page-products">
+                <img src= "./Images/Order-page/Olive-Oil.jpg" alt="Olive Oil" class="order-page-img">
+                <p class="order-page-content-topic">Olive Oil</p><br>
+                <p class="order-page-content">Rs. 2000 - 500 ML</p><br>
+                <input type="number" id="Olive-oil-quantity" min="1" placeholder="Quantity (Units)">
+                <button class="order-page-button">Buy Now</button>    
+            </div>  
+            <div class="order-page-products">
+                <img src= "./Images/Order-page/Yeast.jpg" alt="Yeast" class="order-page-img">
+                <p class="order-page-content-topic">Yeast</p><br>
+                <p class="order-page-content">Rs. 550 - 100g</p><br>
+                <input type="number" id="yeast-quantity" min="1" placeholder="Quantity (Units)">
+                <button class="order-page-button">Buy Now</button>
+            </div>                  
+        </div>
+        <!--When the item is clicked it is shown in this table-->
+        <table id="orderTable" class="orderTable">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <p id="total-price">Total Price: Rs. 0.00</p><br>
+        <div class="favoritesbtn-container">
+        <button id="addToFavoritesButton" class="favoritesBtn">Add to Favorites</button><!--Button to add the order items to favorites-->
+        <button id="applyFavoritesButton" class="favoritesBtn">Apply Favorites</button> <!--Button to apply the favorites-->
+        </div>
+        <button id="checkoutButton" class="checkout-button">Checkout</button>          
+    </section>
+    <!-- Footer section -->
+    <footer>
+        <div class="footer-container">
+            <!-- About us section -->
+            <div class="footer-about">
+                <h3>About Us</h3>
+                <p>We are a company providing the best products and services to our customers. Follow us on social media accounts to stay updated!!!</p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><img src= "./Images/Footer/facebook_logo_icon_.png" alt="Facebook"></a>
+                    <a href="#" class="social-icon"><img src= "./Images/Footer/logo_twitter_bird_icon_.png" alt="Twitter"></a>
+                    <a href="#" class="social-icon"><img src= "./Images/Footer/Instagram-logo-icon.png" alt="Instagram"></a>
+                    <a href="#" class="social-icon"><img src= "./Images/Footer/logo_linkedin_icon_.png" alt="LinkedIn"></a>
+              </div>
+            </div>
+            <!-- Quick links section -->
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="./index.html">Home</a><br></li>
+                    <li><a href="./Dairy.html">Dairy Products</a><br></li>
+                    <li><a href="./Vegetables.html">Vegetable Products</a><br></li>
+                    <li><a href="./Cosmetics.html">Cosmetic Products</a><br></li>
+                    <li><a href="./About-us.html">About Us</a><br></li>
+                    <li><a href="./Order.html">Order Page</a><br></li>
+                    <li><a href="./Loyalty-Registration.html">Loyalty and Registration</a></li>
+                </ul>
+            </div>
+            <!-- Contact us section -->
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>321, Urban Street, Sri Lanka</p>
+                <p>+94 555 741 7890</p>
+                <p>urbanheavens@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 Urban Heavens. All Rights Received</p>
+        </div>
+    </footer>
+    <script src= "./Order-page.js"></script>
+</body>
+</html>

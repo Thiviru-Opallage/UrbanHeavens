@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./Images/Logo/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./Images/Logo/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./Images/Logo/favicon-16x16.png">
+    <link rel="manifest" href="./Images/Logo/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- CSS files -->
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="Products.css">
+    <link rel="stylesheet" href="About-us.css">
+    <link rel="stylesheet" href="Order.css">
+    <link rel="stylesheet" href="Loyalty-Registration.css">
+    <title>Loyalty Page</title>
+</head>
+<body class="background-image">
+    <!-- Header section -->
+    <header class="header">
+        <!-- Logo and navigation -->
+        <div class="text">
+            <p>Urban Heavens</p>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Dairy.html">Dairy</a></li>
+                <li><a href="Vegetables.html">Vegetables</a></li>
+                <li><a href="Cosmetics.html">Cosmetics</a></li>
+                <li><a href="About-us.html">About us</a></li>
+                <li><a href="Order.html">Orders</a></li>
+                <li><a href="Loyalty-Registration.html">Loyalty</a></li>
+            </ul>
+        </div>
+        <!-- Search bar -->
+        <div class="search-bar">
+            <input type="search" placeholder="Search..." class="search-input">
+            <button class="button">Search</button>
+        </div>
+    </header>
+    <!-- Main content section -->
+    <main>
+        <!-- Loyalty registration section -->
+        <section class="loyalty-registration">
+            <h2>Join Our Loyalty Program</h2>
+            <!-- Loyalty registration form -->
+            <div class="form-container">
+                <!-- Personal Information -->
+                <div class="form-section">
+                    <fieldset>
+                        <legend>Personal Information</legend>
+                        <label for="full-name">Full Name:</label>
+                        <input type="text" id="full-name" name="full-name" required>
+                        <label for="dob">Date of Birth:</label>
+                        <input type="date" id="dob" name="dob" required>
+                    </fieldset>
+                </div>
+                <!-- Contact Information -->
+                <div class="form-section">
+                    <fieldset>
+                        <legend>Contact Information</legend>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </fieldset>
+                </div>
+            </div>
+            <div class="form-container">
+                <!-- Address -->
+                <div class="form-section">
+                    <fieldset>
+                        <legend>Address</legend>
+                        <label for="address">Home Address:</label>
+                        <input type="text" id="address" name="address" required>
+                        <label for="city">City:</label>
+                        <input type="text" id="city" name="city" required>
+                        <label for="province">Province:</label>
+                        <select id="province" name="province" required>
+                            <option>Western Province</option>
+                            <!-- Add more options for other provinces -->
+                        </select>
+                        <label for="zip-code">Zip Code:</label>
+                        <input type="text" id="zip-code" name="zip-code" required>
+                    </fieldset>
+                </div>
+                <!-- Account Details -->
+                <div class="form-section">
+                    <fieldset>
+                        <legend>Account Details</legend>
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required>
+                        <label for="confirm-password">Confirm Password:</label>
+                        <input type="password" id="confirm-password" name="confirm-password" required>
+                    </fieldset>
+                    <!-- Preferences -->
+                    <fieldset>
+                        <legend>Preferences</legend>
+                        <label>
+                            <input type="checkbox" name="newsletter" checked>
+                            Subscribe to our newsletter
+                        </label>
+                        <label>
+                            <input type="checkbox" name="offers">
+                            Receive special offers and promotions
+                        </label>
+                    </fieldset>
+                </div>
+            </div>
+            <!-- Registration button -->
+            <button type="submit" class="register-button">Register</button>
+        </section>
+        <!-- Loyalty benefits section -->
+        <section class="loyalty-benefits">
+            <h2>Benefits of Joining Our Loyalty Program</h2>
+            <ul>
+                <!-- List of benefits -->
+                <li>Exclusive discounts and promotions available only to members</li>
+                <li>Earn points with every purchase and redeem them for rewards</li>
+                <li>Special birthday offers and personalized gifts</li>
+                <li>Early access to new products and seasonal sales</li>
+                <li>Invitations to member-only events and workshops</li>
+                <li>Free delivery on all online orders above a certain amount</li>
+            </ul>
+        </section>
+    </main>
+    <!-- Footer section -->
+    <footer>
+        <div class="footer-container">
+            <!-- About us section -->
+            <div class="footer-about">
+                <h3>About Us</h3>
+                <p>We are a company providing the best products and services to our customers. Follow us on social media accounts to stay updated!!!</p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><img src="./Images/Footer/facebook_logo_icon_.png" alt="Facebook"></a>
+                    <a href="#" class="social-icon"><img src="./Images/Footer/logo_twitter_bird_icon_.png" alt="Twitter"></a>
+                    <a href="#" class="social-icon"><img src="./Images/Footer/instagram logo icon.png" alt="Instagram"></a>
+                    <a href="#" class="social-icon"><img src="./Images/Footer/logo_linkedin_icon_.png" alt="LinkedIn"></a>
+                </div>
+            </div>
+            <!-- Quick links section -->
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="./index.html">Home</a><br></li>
+                    <li><a href="./Dairy.html">Dairy Products</a><br></li>
+                    <li><a href="./Vegetables.html">Vegetable Products</a><br></li>
+                    <li><a href="./Cosmetics.html">Cosmetic Products</a><br></li>
+                    <li><a href="./About-us.html">About Us</a><br></li>
+                    <li><a href="./Order.html">Order Page</a><br></li>
+                    <li><a href="./Loyalty-Registration.html">Loyalty and Registration</a></li>
+                </ul>
+            </div>
+            <!-- Contact us section -->
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>321, Urban Street, Sri Lanka</p>
+                <p>+94 555 741 7890</p>
+                <p>urbanheavens@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 Urban Heavens. All Rights Received</p>
+        </div>
+    </footer>
+</body>
+</html>
+
